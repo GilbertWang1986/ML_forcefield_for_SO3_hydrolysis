@@ -15,7 +15,6 @@ def json2atoms(jsonstr):
 
 frames = []
 with open('DataSet.json') as f:
-    sn = 0
     while True:
         line = f.readline()
         if len(line) == 0: break
